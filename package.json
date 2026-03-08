@@ -1,0 +1,29 @@
+{
+  "name": "cobalt-r-classic",
+  "version": "0.0.3",
+  "publisher": "thranholm",
+  "license": "MIT",
+  "displayName": "cobalt-r-classic",
+  "description": "A cobalt theme for the Positron IDE inspired by RStudio's cobalt theme",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "R",
+    "Positron",
+    "Cobalt"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt (R Classic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cobalt (R Classic)-color-theme.json"
+      }
+    ]
+  }
+}

@@ -167,7 +167,10 @@
     "activityBar.border": "#404040b9",
 
     "statusBar.border": "#404040b9",
-    "titleBar.border": "#404040b9"
+    "titleBar.border": "#404040b9",
+
+    "textCodeBlock.background": "#1A3954",
+
   },
   "tokenColors": [
     {
@@ -337,7 +340,28 @@
       "name": "Markup Link",
       "scope": ["markup.underline.link", "meta.link"],
       "settings": {
-        "foreground": "#0088FF"
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Markup Link text",
+      "scope": "string.other.link.title.quarto",
+      "settings": {
+        "foreground": "#FF9D00"
+      }
+    },
+    {
+      "name": "Quarto fenced code block",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#FF9D00"
+      }
+    },
+    {
+      "name": "Quarto punctuation code block",
+      "scope": "punctuation.definition.markdown",
+      "settings": {
+        "foreground": "#FF9D00",
       }
     },
     {

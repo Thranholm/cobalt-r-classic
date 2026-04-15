@@ -170,7 +170,7 @@
     "titleBar.border": "#404040b9",
 
     "textCodeBlock.background": "#1A3954",
-
+ 
   },
   "tokenColors": [
     {
@@ -183,7 +183,7 @@
     },
     {
       "name": "String",
-      "scope": ["string", "string.quoted"],
+      "scope": ["string", "string.quoted", "punctuation.definition.string.begin.yaml", "punctuation.definition.string.end.yaml"],
       "settings": {
         "foreground": "#3AD900"
       }
@@ -301,7 +301,7 @@
     },
     {
       "name": "Markup Heading",
-      "scope": ["markup.heading", "entity.name.section"],
+      "scope": ["markup.heading", "entity.name.section", "punctuation.definition.heading.quarto"],
       "settings": {
         "foreground": "#C8E4FD"
       }
@@ -323,17 +323,17 @@
     },
     {
       "name": "Markup Italic",
-      "scope": ["markup.italic"],
+      "scope": ["markup.italic", "punctuation.definition.italic.quarto", "markup.bold", "punctuation.definition.bold.quarto"],
       "settings": {
-        "foreground": "#80FFBB",
+        "foreground": "#FF628C",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markup Inline Code",
-      "scope": ["markup.inline.raw", "markup.raw"],
+      "scope": ["markup.inline.raw", "markup.raw", 	"punctuation.definition.raw.quarto"],
       "settings": {
-        "foreground": "#3AD900"
+        "foreground": "#FF9D00"
       }
     },
     {
@@ -354,7 +354,7 @@
       "name": "Quarto fenced code block",
       "scope": "markup.fenced_code.block.markdown",
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#FF9D00",
       }
     },
     {
@@ -421,6 +421,13 @@
       "scope": ["support.type.property-name.json"],
       "settings": {
         "foreground": "#9EFFFF"
+      }
+    },
+    {
+      "name": "YAML strings",
+      "scope": ["string.unquoted.plain.out.yaml"],
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     }
   ]
